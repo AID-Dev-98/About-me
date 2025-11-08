@@ -1,0 +1,239 @@
+:root{
+    --fontcolor: #0B1023;
+    --secondarycolor: #dfe900;
+    --fontcoloritem: #192a38;
+    --fontcolorinput: #e1e1eb;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: var(--fontcolor);
+    color: #fff;
+}
+
+header{
+    padding: 15px;
+    background-image: url("../img/banner/banner.jpg");
+    background-size: cover;
+    background-position:left;
+    width: 100%;
+    height: 65vh;
+    text-align: center;
+    box-shadow: 5px 5px 5px var(--fontcoloritem);
+    position: relative;
+}
+
+header .head{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header .logoXS h1{
+    font-family: "Helvetica", sans-serif;
+    font-size: 2.8em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header nav{
+    text-align: center;
+    align-self: center;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    margin: 5px;
+    padding: 5px;
+    display: inline;
+    text-align: center;
+}
+
+header a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.button{
+    padding: 5px 12px;
+    display: inline-block;
+    align-self: center;
+    color: #000;
+    background-color: #E5F887;
+    text-decoration: none;
+    border-radius: 16px;
+}
+
+header .me p{
+    font-size: 2em;
+    position: absolute;
+    top: 45%;
+    left: 13%;
+}
+
+.me p span{
+    color: #E5F887;
+}
+
+h2, h3{
+    margin-bottom: 50px;
+    color: #E5F887;
+    font-weight: bold;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    text-align: center;
+}
+
+main > div{
+    margin: 70px auto;
+}
+
+main .about{
+    width: 60%;
+}
+
+.skills{
+    margin: 30px 0;
+}
+
+.skills .skills-containt{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.skills img{
+    width: 90px;
+    height: 90px;
+}
+
+.skills .logo{
+    flex: 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+.skills .xperience{
+    flex: 1;
+    margin: 0 10px;
+    padding: 15px 0;
+    background-color: var(--fontcoloritem);
+}
+
+.xperience p{
+    font-size: 1.5em;
+}
+
+.xperience p span{
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.logo .language-logo{
+    padding: .8em;
+    background-color: var(--fontcoloritem);
+    border-radius: 5px;
+}
+
+.additional-skills{
+    padding: 50px 0;
+    background-color: var(--fontcoloritem);
+    border-radius: 5px;
+}
+
+.additional-skills img{
+    width: 90px;
+    height: 90px;
+}
+
+.additional-skills .logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.contact{
+    margin: 10px 0;
+    padding: 60px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.contact h2{
+    margin-bottom: 40px;
+    color: #000;
+}
+
+.contact input, .contact textarea{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: var(--fontcolorinput);
+    border-radius: 15px;
+}
+
+.contact textarea{
+    resize: none;
+}
+
+.contact button{
+    display: block;
+    padding: 10px;
+    width: 100%;
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: var(--secondarycolor);
+    border: none;
+    border-radius: 25px;
+}
+
+.contact button:hover{
+    width: 99%;
+    margin: 0 auto;
+    font-weight: normal;
+    background-color: #dee61d;
+    transition: all 0.4s ease-in-out;
+}
+
+footer{
+    margin: 50px 50px 15px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+    flex-wrap: wrap;
+}
+
+footer .copyright{
+    align-content: center;
+}
+
+footer .copyright p{
+    margin: 0;
+}
+
+footer .social-logo a{
+    display: inline-block;
+    margin: 15px;
+}
+
+footer .social-logo img{
+    width: 40px;
+    height: 40px;
+}
